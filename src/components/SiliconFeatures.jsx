@@ -62,7 +62,7 @@ export const SiliconFeatures = () => {
                 <Heading as='h1' p={5} size={["md", "lg"]}>More Silicon Features</Heading>
             </Box>
             <Grid templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(4, 1fr)']} m={["50px", "80px"]} gap={6}>
-                {Data.map((e) => (<SiliconFeatureCard data={e} />))}
+                {Data.map((e) => (<SiliconFeatureCard data={e} key={e.id} />))}
             </Grid>
             <hr></hr>
         </Box>
