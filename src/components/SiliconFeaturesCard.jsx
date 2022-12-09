@@ -1,6 +1,5 @@
 import { Box, useColorModeValue, Heading, Text } from "@chakra-ui/react"
-import { BsFillBootstrapFill, BsFillFileEarmarkBreakFill, BsPhoneFill, BsHandIndexThumbFill } from "react-icons/bs";
-import { IoLogoCss3, IoLogoJavascript, IoLogoSass } from "react-icons/io"
+
 
 export const SiliconFeatureCard = ({ data: { icon, title, text } }) => {
 

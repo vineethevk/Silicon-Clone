@@ -54,7 +54,7 @@ export const LandingPages = () => {
         }
     ]
     return (
-        <Box>
+        <Box marginTop={["20px", "50px"]}>
             <Box textAlign='center'>
                 <Heading as='h1' p={5}>Landing Pages</Heading>
                 <Text color={useColorModeValue('gray.600', 'white')}>Choose from pre-built layouts of our unique landing pages</Text>
