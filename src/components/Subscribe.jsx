@@ -3,11 +3,11 @@ import { AiOutlineMail, AiOutlineHeart } from "react-icons/ai"
 
 export const Subscribe = () => {
     return (
-        <Box margin={"80px"}>
+        <Box margin={["20px", "80px"]}>
             <Box textAlign={"center"} >
                 <Heading as='h1' p={5} size={["md", "xl"]}>Subscribe to Our Newsletter</Heading>
             </Box>
-            <Flex border={"solid 1px #dbdbdc"} w={["90%", "50%"]} margin={"auto"} marginTop={"40px"} borderRadius={"5px"}>
+            <Flex border={"solid 1px #dbdbdc"} w={["95%", "90%", "50%"]} margin={"auto"} marginTop={"40px"} borderRadius={"5px"}>
                 <Box margin={"auto"} padding={"5px"}>
                     <AiOutlineMail size={"25px"} color={"gray"} />
                 </Box>
