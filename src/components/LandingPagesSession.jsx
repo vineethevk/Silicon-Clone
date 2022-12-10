@@ -51,6 +51,11 @@ export const LandingPages = () => {
             id: 9,
             title: "Blog Homepage",
             image: "https://silicon.madrasthemes.com/wp-content/uploads/2022/01/blog-homepage.jpg"
+        },
+        {
+            id: 10,
+            title: "Blog Homepage",
+            image: "https://silicon.madrasthemes.com/wp-content/uploads/2022/01/blog-homepage.jpg"
         }
     ]
     return (
